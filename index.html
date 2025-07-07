@@ -1,0 +1,218 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cara's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+<body id="top-of-page">
+    <div class="underlay"></div>
+    <header>
+        <div class="profile-photo"></div>
+        <a href="/">
+            <h1>Cara Jung</h1>
+        </a>
+        <h4>Developer | Bay Area</h4>
+        <p>I seek to transform ideas into impactful digital experiences and business outcomes.</p>
+        <nav>
+            <a class="section-text" href="#background">
+                <strong><p><i class="fa-solid fa-caret-right"></i> BACKGROUND</p></strong>
+            </a>
+            <a class="section-text" href="#skills">
+                <strong><p><i class="fa-solid fa-caret-right"></i> SKILLS</p></strong>
+            </a>
+            <a class="section-text" href="#projects">
+                <strong><p><i class="fa-solid fa-caret-right"></i> PROJECTS</p></strong>
+            </a>
+            <a class="section-text" href="#work-experience">
+                <strong><p><i class="fa-solid fa-caret-right"></i> WORK EXPERIENCE</p></strong>
+            </a>
+            <div class="social-link-container">
+                <a class="social-link" href="https://github.com/carasjung" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a class="social-link" href="https://www.linkedin.com/in/carasjung/" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a class="social-link copy-email" href="#" onclick="copyEmail(event)">
+                    <i class="fa-regular fa-envelope"></i>
+                    <span class="tooltip-text">Click to copy</span>
+                </a>
+                <span id="email" style="display: none;">carasjung@gmail.com</span>
+                <a class="social-link" href="https://www.instagram.com/carasjung/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a class="social-link" href="https://x.com/carasjung" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="background">
+            <div class="sticky-header">
+                <h2 class="lightText">BACKGROUND</h2>
+            </div>
+            <div class="background-contents">
+                <p>Hello, my name is Cara and I’m a graduate student pursuing an MS in Computer Science at the University of Colorado Boulder. Currently based in the Bay Area, I work full-time at NAVER Corp where I lead cross-functional initiatives and build end-to-end data solutions. From designing automated reporting systems that process thousands of projects to developing machine learning models that predict commercial success, I focus on creating solutions that are both technically sophisticated and practically meaningful. <br>
+                <br>With a unique background spanning operations, media relations, and technical development, I bring both analytical rigor and strategic communication skills to my work. 
+                </p>
+            </div>
+        <section id="skills">
+            <div class="sticky-header">
+                <h2 class="lightText">SKILLS</h2>
+            </div>
+            <div class="skills-contents">
+                <div class="skills-card">
+                    <strong><p>Languages</p></strong><br>
+                    <div class="tag-container">
+                        <div class="tag"><p>Python</p></div>
+                        <div class="tag"><p>JavaScript</p></div>
+                        <div class="tag"><p>SQL</p></div>
+                        <div class="tag"><p>HTML</p></div>
+                        <div class="tag"><p>CSS</p></div>
+                    </div>
+                </div>
+                <div class="skills-card">    
+                    <strong><p>Frameworks & Technologies</p></strong><br>
+                    <div class="tag-container">
+                        <div class="tag"><p>Next.js</p></div>
+                        <div class="tag"><p>FastAPI</p></div>
+                        <div class="tag"><p>React</p></div>
+                        <div class="tag"><p>Supabase</p></div>
+                        <div class="tag"><p>PostgreSQL</p></div>
+                        <div class="tag"><p>Salesforce</p></div>
+                        <div class="tag"><p>Airtable</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="sticky-header">
+                <h2 class="lightText">PROJECTS</h2>
+            </div>
+            <div class="project-contents">
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="/public/song-nerd.png" alt="song-nerd-thumbnail">
+                    </div>
+                    <div class="card-column">
+                        <a target="_blank" href="" class="anchor-text card-header">
+                            <h3>
+                                <p>Song Nerd
+                                <i class="fa-solid fa-arrow-right anchor-icon"></i></p>
+                            </h3>
+                        </a>
+                        <p>
+                            A comprehensive AI-powered music marketing platform that processes and analyzes audio data to generate high-quality training datasets and actionable insights for musicians.
+                        </p>
+                        <a href="https://github.com/carasjung/personal-projects/tree/043b0cbd543675cb14614d6880aca9db43fd5ae0/song-nerd-app" target="_blank" class="anchor-text project-stat-link">
+                            <p><i class="fa-brands fa-github"></i> Repository</p>
+                        </a>
+                        <div class="tag-container">
+                            <div class="tag"><p>Next.js</p></div>
+                            <div class="tag"><p>Python</p></div>
+                            <div class="tag"><p>Javascript</p></div>
+                            <div class="tag"><p>React</p></div>
+                            <div class="tag"><p>Supabase</p></div>
+                            <div class="tag"><p>FastAPI</p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="/public/we-thumbnail.png" alt="we-thumbnail">
+                    </div>
+                    <div class="card-column">
+                        <a target="_blank" href="https://github.com/carasjung/personal-projects/tree/11a224b76348ede08a84ee465c8cbb19cf500fe5/webtoon-adaptation" class="anchor-text card-header">
+                            <h3>
+                                <p>Webtoon-KDrama Adaptation Success Predictor
+                                <i class="fa-solid fa-arrow-right anchor-icon"></i></p>
+                            </h3>
+                        </a>
+                        <p>
+                            A predictive modeling system that analyzes webtoon performance data to forecast which titles would make successful Korean drama adaptations, achieving 99% accuracy using advanced regression techniques and statistical validation.
+                        </p>
+                        <a href="https://github.com/carasjung/personal-projects/tree/11a224b76348ede08a84ee465c8cbb19cf500fe5/webtoon-adaptation" target="_blank" class="anchor-text project-stat-link">
+                            <p><i class="fa-brands fa-github"></i> Repository</p>
+                        </a>
+                        <div class="tag-container">
+                            <div class="tag"><p>Python</p></div>
+                            <div class="tag"><p>Ridge Regression</p></div>
+                            <div class="tag"><p>XGBoost</p></div>
+                            <div class="tag"><p>Statistical Analysis</p></div>
+                            <div class="tag"><p>Predictive Modeling</p></div>
+                        </div>
+                    </div>
+                </div>
+                <a href="" target="_blank" class="external-file-link">
+                    <p><i class="fa-regular fa-folder"></i> Project Archive</p>
+                </a>
+        </section>
+        <section id="work-experience">
+            <div class="sticky-header">
+                <h2 class="lightText">WORK EXPERIENCE</h2>
+            </div>
+            <div class="experience-contents">
+                <div class="experience-card">
+                    <p class="tenure"> July 2022 - present</p>
+                    <div class="card-column">
+                        <a target="_blank" href="https://www.webtoons.com/en/">
+                            <b><h3 class="anchor-text card-header">Creator Specialist, Operations · WEBTOON 
+                                <i class="fa-solid fa-arrow-right anchor-icon"></i></b>
+                            </h3>
+                        </a>
+                        <p>
+                            Managed operations and client relations for creators across NAVER's Wattpad and WEBTOON platforms, overseeing projects from onboarding through campaign launches while building automated systems and databases to streamline workflows
+                        </p>
+                        <div class="tag-container">
+                            <div class="tag"><p>Process Automation</p></div>
+                            <div class="tag"><p>Cross-functional Projects</p></div>
+                            <div class="tag"><p>Client Relations</p></div>
+                            <div class="tag"><p>Database Management</p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <p class="tenure"> August 2021 - June 2022</p>
+                    <div class="card-column">
+                        <a target="_blank" href="https://wma.agency/">
+                            <b><h3 class="anchor-text card-header">Publicist · Weller Media Agency 
+                                <i class="fa-solid fa-arrow-right anchor-icon"></i></b>
+                            </h3>
+                        </a>
+                        <p>
+                            Secured high-impact media placements for entertainment and fashion clients across tier-1 outlets like Billboard and Vogue while coordinating complex multi-stakeholder campaigns and events.
+                        </p>
+                        <div class="tag-container">
+                            <div class="tag"><p>Stakeholder Management</p></div>
+                            <div class="tag"><p>Media Relations</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="/public/cara-resume.pdf" target="_blank" class="external-file-link">
+                <p><i class="fa-regular fa-file full-files"></i> Full Resume</p>
+            </a>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Built with HTML, CSS and JavaScript using <strong><a href="https://code.visualstudio.com/" target="_blank" class="footer-text">Visual Studio Code</a></strong>. <br>All text is set in <strong><a href="https://developer.apple.com/fonts/" target="_blank" class="footer-text">SF Pro</a></strong> typeface. <br>Deployed with <strong><a href="https://vercel.com/" target="_blank" class="footer-text">Vercel</a></strong>.
+        </p>
+        <a href="#top-of-page" class="scroll-to-top">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+    </footer>
+    <script src="/copyEmail.js"></script>          
+</body>
+</html>
