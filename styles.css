@@ -297,6 +297,7 @@ section h2 {
     aspect-ratio: 16 / 9;
     order: 2;
     border-radius: 0.25rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .project-image-container img {
