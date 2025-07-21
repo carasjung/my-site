@@ -2,6 +2,9 @@
 
 This is the source code for my personal portfolio website. The site showcases my background, skills, projects, and work experience.
 
+## Live Site
+[https://carasjung.com/](https://carasjung.com/)
+
 ## Features
 - **Background**: Introduction and professional summary
 - **Skills**: Languages, frameworks, and technologies
